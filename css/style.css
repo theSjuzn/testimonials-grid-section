@@ -156,7 +156,7 @@ body {
         max-width: 90%;
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 25em 25em;
+        grid-template-rows: auto;
         grid-template-areas:
         "one one two five"
         "three four four five";
