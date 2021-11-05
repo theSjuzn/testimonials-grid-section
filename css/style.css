@@ -165,5 +165,8 @@ body {
         justify-items: stretch;
         align-items: stretch;
     }
+    .box {
+        height:fit-content;
+    }
     
 }
