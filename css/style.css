@@ -165,7 +165,7 @@ body {
         align-items: stretch;
     }
     .box {
-        height:min-content;
+        height:auto;
     }
     
 }
