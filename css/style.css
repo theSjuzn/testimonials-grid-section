@@ -152,9 +152,10 @@ body {
 @media screen and (min-width:1000px) {
   
     .container {
-        margin: 2em auto;
+        margin: 2em;
+        width: 90%;
+        height: auto;
         display: grid;
-        height:auto;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: auto;
         grid-template-areas:
@@ -164,8 +165,6 @@ body {
         justify-items: stretch;
         align-items: stretch;
     }
-    .box {
-        height:auto;
-    }
+    
     
 }
