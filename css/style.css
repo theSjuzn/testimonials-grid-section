@@ -152,8 +152,8 @@ body {
 @media screen and (min-width:1000px) {
   
     .container {
-        margin: 2em auto;
-        width: 100%;
+         margin: 2em auto;
+        width: 90%;
         height: auto;
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -162,6 +162,8 @@ body {
         "one one two five"
         "three four four five";
         gap: 2em;
+        justify-content: center;
+        align-content: center;
         justify-items: stretch;
         align-items: stretch;
     }
